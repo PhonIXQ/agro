@@ -54,7 +54,7 @@ function App() {
                </tr>
             </tbody>
          </table>
-         <section>
+         {/* <section>
             <p>2023-05-08</p>
             <p>Beta</p>
             <p>Rocket</p>
@@ -71,7 +71,7 @@ function App() {
             <p>First</p>
             <p>Green Cos</p>
             <p>{diffInDays1} Day</p>
-         </section>
+         </section> */}
       </div>
    );
 }
