@@ -1,5 +1,5 @@
 .App {
-   text-align: center;
+   /* text-align: center; */
    min-height: 100vh;
    color: white;
    background-color: #282c34;
@@ -41,4 +41,20 @@
 section {
    display: flex;
    justify-content: space-around;
+}
+
+table {
+   width: 100%;
+   padding: 0 8px;
+   border-bottom: 1px solid hsl(216deg 25% 30%);
+}
+
+th,
+td {
+   text-align: left;
+   border-top: 1px solid hsl(216deg 25% 30%);
+}
+
+.tdlast {
+   text-align: right;
 }
