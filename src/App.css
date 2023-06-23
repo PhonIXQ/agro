@@ -43,18 +43,52 @@ section {
    justify-content: space-around;
 }
 
+body {
+   font-size: 14px;
+}
+
 table {
    width: 100%;
    padding: 0 8px;
+   border-spacing: 0;
+   border-collapse: separate;
    border-bottom: 1px solid hsl(216deg 25% 30%);
 }
 
 th,
 td {
    text-align: left;
+   vertical-align: baseline;
    border-top: 1px solid hsl(216deg 25% 30%);
 }
 
 .tdlast {
    text-align: right;
+}
+
+ol {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.amount {
+   text-align: right;
+}
+
+.colspan {
+   color: red;
+}
+/* .display {
+   display: none;
+} */
+
+footer {
+   text-align: center;
+   padding: 32px;
+}
+
+footer a {
+   text-decoration: none;
+   color: red;
 }
