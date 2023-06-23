@@ -43,17 +43,30 @@ function App() {
                <tr>
                   <td>2023-05-18</td>
                   <td>Pand</td>
-                  <td>Butterhead</td>
+                  <td>
+                     <ol>
+                        <li>Butterhead</li>
+                     </ol>
+                  </td>
                   <td className="tdlast">{diffInDays} Day</td>
                </tr>
-               <tr>
+               <tr className="display">
                   <td>2023-06-21</td>
                   <td>First</td>
-                  <td>Green Cos</td>
+                  <td>
+                     <ol>
+                        <li>Green Cos</li>
+                        <li>Red Cos</li>
+                     </ol>
+                  </td>
                   <td className="tdlast">{diffInDays1} Day</td>
                </tr>
             </tbody>
          </table>
+
+         <footer>
+            <a href="/">PhonIXQ</a> <span>&copy; 2023</span>
+         </footer>
          {/* <section>
             <p>2023-05-08</p>
             <p>Beta</p>
