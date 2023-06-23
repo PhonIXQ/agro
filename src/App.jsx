@@ -50,7 +50,7 @@ function App() {
                   </td>
                   <td className="tdlast">{diffInDays} Day</td>
                </tr>
-               <tr className="display">
+               <tr>
                   <td>2023-06-21</td>
                   <td>First</td>
                   <td>
@@ -67,24 +67,6 @@ function App() {
          <footer>
             <a href="/">PhonIXQ</a> <span>&copy; 2023</span>
          </footer>
-         {/* <section>
-            <p>2023-05-08</p>
-            <p>Beta</p>
-            <p>Rocket</p>
-            <p>{diffInDays0} Day</p>
-         </section>
-         <section>
-            <p>2023-05-18</p>
-            <p>Pand</p>
-            <p>Butterhead</p>
-            <p>{diffInDays} Day</p>
-         </section>
-         <section>
-            <p>2023-06-21</p>
-            <p>First</p>
-            <p>Green Cos</p>
-            <p>{diffInDays1} Day</p>
-         </section> */}
       </div>
    );
 }

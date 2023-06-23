@@ -43,10 +43,6 @@ section {
    justify-content: space-around;
 }
 
-body {
-   font-size: 14px;
-}
-
 table {
    width: 100%;
    padding: 0 8px;
@@ -79,9 +75,9 @@ ol {
 .colspan {
    color: red;
 }
-/* .display {
+.display {
    display: none;
-} */
+}
 
 footer {
    text-align: center;
