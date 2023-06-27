@@ -1,8 +1,11 @@
+html {
+   background-color: #282c34;
+}
+
 .App {
    /* text-align: center; */
    min-height: 100vh;
    color: white;
-   background-color: #282c34;
 }
 
 .App-logo {
