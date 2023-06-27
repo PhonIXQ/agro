@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "short_name": "Argoboy",
   "name": "PhonIXQ",
   "icons": [
@@ -20,4 +21,29 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
+=======
+   "short_name": "argoboy",
+   "name": "PhonIXQ",
+   "icons": [
+      {
+         "src": "favicon.ico",
+         "sizes": "64x64 32x32 24x24 16x16",
+         "type": "image/x-icon"
+      },
+      {
+         "src": "logo192.png",
+         "type": "image/png",
+         "sizes": "192x192"
+      },
+      {
+         "src": "",
+         "type": "image/png",
+         "sizes": "512x512"
+      }
+   ],
+   "start_url": ".",
+   "display": "standalone",
+   "theme_color": "#000000",
+   "background_color": "#282c34"
+>>>>>>> e842c26ccf71e829706e692b5a9ed9cd26a2120c
 }
