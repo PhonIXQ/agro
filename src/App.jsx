@@ -19,7 +19,7 @@ function App() {
    return (
       <div className="App">
          <header className="App-header">
-            <h2>argo PhonIXQ</h2>
+            <h2>argoboy</h2>
             <img src={logo} className="App-logo" alt="logo" />
             <h3>.</h3>
          </header>
