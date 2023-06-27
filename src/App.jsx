@@ -56,7 +56,7 @@ function App() {
                   <td>
                      <ol>
                         <li>Green Cos</li>
-                        <li>Red Cos</li>
+                        {/* <li>Red Cos</li> */}
                      </ol>
                   </td>
                   <td className="tdlast">{diffInDays1} Day</td>
