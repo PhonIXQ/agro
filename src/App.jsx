@@ -19,11 +19,7 @@ function App() {
    return (
       <div className="App">
          <header className="App-header">
-<<<<<<< HEAD
             <h2>Argoboy</h2>
-=======
-            <h2>argoboy</h2>
->>>>>>> e842c26ccf71e829706e692b5a9ed9cd26a2120c
             <img src={logo} className="App-logo" alt="logo" />
             <h3>.</h3>
          </header>
