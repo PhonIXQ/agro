@@ -10,10 +10,10 @@ function App() {
       return diDays;
    };
 
-   const date20230518 = '2023-05-18';
    const date20230508 = '2023-05-08';
+   const date20230518 = '2023-05-18';
    const date20230621 = '2023-06-21';
-   // const date20230630 = '2023-06-30';
+   const date20230701 = '2023-07-01';
 
    return (
       <div className="App">
@@ -34,13 +34,13 @@ function App() {
                </thead>
                <tbody>
                   <tr>
-                     <td>2023-05-08</td>
+                     <td>{date20230508}</td>
                      <td>Beta</td>
                      <td>Rocket</td>
                      <td className="tdlast">{diDay(date20230508)} Day</td>
                   </tr>
                   <tr>
-                     <td>2023-05-18</td>
+                     <td>{date20230518}</td>
                      <td>Pand</td>
                      <td>
                         <ol>
@@ -50,15 +50,25 @@ function App() {
                      <td className="tdlast">{diDay(date20230518)} Day</td>
                   </tr>
                   <tr>
-                     <td>2023-06-21</td>
-                     <td>First</td>
+                     <td>{date20230621}</td>
+                     <td>#1 st</td>
                      <td>
                         <ol>
                            <li>Green Cos</li>
-                           {/* <li>Red Cos</li> */}
                         </ol>
                      </td>
                      <td className="tdlast">{diDay(date20230621)} Day</td>
+                  </tr>
+                  <tr>
+                     <td>{date20230701}</td>
+                     <td>#2 nd</td>
+                     <td>
+                        <ol>
+                           <li>Red Cos</li>
+                           <li>Morning Glory</li>
+                        </ol>
+                     </td>
+                     <td className="tdlast">{diDay(date20230701)} Day</td>
                   </tr>
                </tbody>
             </table>
